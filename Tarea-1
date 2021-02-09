@@ -1,0 +1,135 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPScBn3BfzapGOTlkj0cQ8h",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PabinAGUILAR/repositorio-Tarea-1/blob/main/Tarea-1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7S0EjNFmL5se",
+        "outputId": "9f78d6a8-a140-45e9-8cbe-5438608b5c63"
+      },
+      "source": [
+        "#clase 1 prueba de variable string \r\n",
+        "Mensaje = \"buenos dias\"\r\n",
+        "print(Mensaje, \"\\n hola buenos dias\" )"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "buenos dias \n",
+            " hola buenos dias\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DiKCbonmU9nY",
+        "outputId": "631004d2-5e24-40ad-8f22-79624bab013e"
+      },
+      "source": [
+        "#concatenar variables\r\n",
+        "M1 = \"Estoy\"\r\n",
+        "M2 = \" en la \"\r\n",
+        "M3 = \" primera clase \"\r\n",
+        "M_Total = M1 + M2 + M3  \r\n",
+        "print(M_Total,\"de python\" )"
+      ],
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Estoy en la  primera clase  de python\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WfApQcj9aBfW",
+        "outputId": "306e7899-b62d-4364-c2ab-a766ad7c7205"
+      },
+      "source": [
+        "print(\"Cual es tu primer nombre\")\r\n",
+        "#solicitar input al usuario\r\n",
+        "Nombre1 = input()\r\n",
+        "print(\"cual es tu segundo nombre\")\r\n",
+        "Nombre2 = input()\r\n",
+        "print(\"cual es tu primer apellido\")\r\n",
+        "Apellido1 = input()\r\n",
+        "print(\"cual es tu segundo apellido\")\r\n",
+        "Apellido2= input()\r\n",
+        "print(\"que edad tienes\")\r\n",
+        "Edad = input()\r\n",
+        "\r\n",
+        "print(\"De donde eres\")\r\n",
+        "#solicitar input al usiario\r\n",
+        "lugar = input()\r\n",
+        "\r\n",
+        "#print(Nombre, Edad,)\r\n",
+        "\r\n",
+        "print(\"Mi nombre es\", Nombre1, Nombre2, Apellido1, Apellido2, Edad, lugar)"
+      ],
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Cual es tu primer nombre\n",
+            "Juan \n",
+            "cual es tu segundo nombre\n",
+            "pablo\n",
+            "cual es tu primer apellido\n",
+            "Aguilar\n",
+            "cual es tu segundo apellido\n",
+            "Balderas\n",
+            "que edad tienes\n",
+            "21\n",
+            "De donde eres\n",
+            "Guanajuato, Gto\n",
+            "Mi nombre es Juan  pablo Aguilar Balderas 21 Guanajuato, Gto\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
